@@ -19,18 +19,18 @@ export const Climate = ({temperature, humidity}) => {
 
     return (
         <div className="climate">
-				<div className="climate__icon">
-					<img src={temp} />
-				</div>
-				<div className="climate__content">
-					<div className="climate__temperature">{newTemperature}&deg;C</div>
-					<div className="climate__humidity">Vlhost vzduchu {humidity}&nbsp;%</div>
-				</div>
-				<div className="climate__controls">
-					<button onClick={handleClick} className="button">+</button>
-					<button onClick={handleClick} className="button">-</button>
-				</div>
-			</div>
+            <div className="climate__icon">
+                <img src={temp} />
+            </div>
+            <div className="climate__content">
+                <div className="climate__temperature">{newTemperature}&deg;C</div>
+                <div className="climate__humidity">Vlhost vzduchu {humidity}&nbsp;%</div>
+            </div>
+            <div className="climate__controls">
+                <button onClick={handleClick} className="button">+</button>
+                <button onClick={handleClick} className="button">-</button>
+            </div>
+        </div>
     )
 }
 
