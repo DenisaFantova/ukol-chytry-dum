@@ -4,7 +4,7 @@ import "./style.css";
 import imgBlindsOpen from "./images/blinds-open.svg";
 import imgBlindsClosed from "./images/blinds-closed.svg";
 
-export const Blinds = ({ state }) => {
+const Blinds = ({ state }) => {
   const [stateBlinds, setStateBlings] = useState(state);
 
   const handleClick = (event) => {

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Light from "../Light";
 
-export const Lights = ({ lights }) => {
+const Lights = ({ lights }) => {
   return (
     <div className="lights">
       {lights.map((light) => (

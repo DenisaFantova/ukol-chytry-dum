@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./style.css";
 import temp from "./images/temp.svg";
 
-export const Climate = ({ temperature, humidity }) => {
+const Climate = ({ temperature, humidity }) => {
   const [newTemperature, setTemperature] = useState(temperature);
 
   const handleClick = (event) => {

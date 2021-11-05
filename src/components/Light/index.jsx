@@ -4,7 +4,7 @@ import "./style.css";
 import lightOn from "./images/light-on.svg";
 import lightOff from "./images/light-off.svg";
 
-export const Light = ({ name, state }) => {
+const Light = ({ name, state }) => {
   const [light, setLight] = useState(state);
 
   const handleClick = () => {

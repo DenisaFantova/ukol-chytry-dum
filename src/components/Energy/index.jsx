@@ -5,7 +5,7 @@ import "./style.css";
 import imgTemp from "./images/temp.svg";
 import imgWater from "./images/water.svg";
 
-export const Energy = ({ electricity, water }) => {
+const Energy = ({ electricity, water }) => {
   return (
     <div className="energy">
       <div className="energy__source">

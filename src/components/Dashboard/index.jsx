@@ -5,7 +5,7 @@ import Climate from "../Climate";
 import Blinds from "../Blinds";
 import Energy from "../Energy";
 
-export const Dashboard = ({ data }) => {
+const Dashboard = ({ data }) => {
   return (
     <main className="dashboard">
       <Lights lights={data.lights} />
